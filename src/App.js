@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+// import Effect from './components/useeffect/Effect';
+// import From from './components/usestate/Form';
+// import Cleanup from './components/useeffect/Cleanup'
+import Parents from './Parents1'
 
-function App() {
+
+ function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    {/* <Effect/> */}
+    {/* <Cleanup/> */}
+    {/* <Form/>    */}
+   
+    <Parents/>
+    </>
+  )
 }
-
 export default App;

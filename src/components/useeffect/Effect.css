@@ -1,0 +1,30 @@
+/* Assuming this is your App.css or a dedicated CSS file */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  
+  /* Hover effect for the buttons */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
